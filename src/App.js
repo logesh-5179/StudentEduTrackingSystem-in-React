@@ -4,7 +4,7 @@ import logo from '../../student/src/assets/images.png';
 
 const App = () => {
   const [counter, setCounter] = useState(8);
-
+ 
   useEffect(() => {
     const interval = setInterval(() => {
       setCounter((prevCounter) => prevCounter + 1);
